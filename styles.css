@@ -1,0 +1,221 @@
+/* Style général */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+header {
+  background-color: #33333300;
+  color: #333;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: top 0.3s;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #1abc9c;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url('assets/background.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.hero-text {
+  width: 50%;
+  text-align: left;
+  color: #333;
+}
+
+.hero h1 {
+  font-size: 4rem;
+}
+
+.hero p {
+  font-size: 2rem;
+}
+
+.hero-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.hero-btn:hover {
+  background-color: white;
+  color: #333;
+}
+
+/* Photo en cercle */
+.profile-picture {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-picture img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+}
+
+/* About Section */
+.about-section {
+  padding: 50px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+}
+
+/* Projects Section */
+.projects-section {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.project-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  height: auto;
+}
+
+.project-card h3 {
+  font-size: 1.8rem;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 50px;
+  background-color: #1abc9c;
+  color: white;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .social-links a {
+  margin: 0 10px;
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+footer .social-links a:hover {
+  color: #16a085;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .profile-picture {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero-btn {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+  }
+}
