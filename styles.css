@@ -161,8 +161,8 @@ nav {
 /* Contact Section */
 .contact-section {
   padding: 50px;
-  background-color: #1abc9c;
-  color: white;
+  background-color: #F9FAFC;
+  color: #333;
   text-align: center;
 }
 
@@ -177,7 +177,7 @@ nav {
 /* Footer */
 footer {
   background-color: #333;
-  color: white;
+  color: #F9FAFC;
   text-align: center;
   padding: 20px;
 }
