@@ -117,10 +117,19 @@ nav {
   font-size: 2.5rem;
 }
 
+.icons {
+  font-size: 50px;
+}
+
 /* Projects Section */
 .projects-section {
   padding: 50px;
   background-color: #fff;
+  text-align: center;
+}
+
+.projects-section h2 {
+  font-size: 2.5rem;
 }
 
 .project-container {
