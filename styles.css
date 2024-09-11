@@ -109,7 +109,7 @@ nav {
 /* About Section */
 .about-section {
   padding: 50px;
-  background-color: #f4f4f4;
+  background-color: #F9FAFC;
   text-align: center;
 }
 
@@ -140,7 +140,7 @@ nav {
 }
 
 .project-card {
-  background-color: #eee;
+  background-color: #F9FAFC;
   padding: 20px;
   border-radius: 8px;
   width: 300px;
