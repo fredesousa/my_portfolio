@@ -39,7 +39,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #1abc9c;
+  color: #000000;
 }
 
 /* Hero Section */
@@ -84,6 +84,7 @@ nav {
   color: white;
   text-decoration: none;
   font-size: 1.2rem;
+  border-radius: 6px;
 }
 
 .hero-btn:hover {
